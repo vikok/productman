@@ -41,10 +41,12 @@ body{
 
 .ba-product-text {
 	display: inline-block;
+	text-align:right;
 }
 
 .ba-product-img {
 	display: inline-block;
+	text-align:right;
 }
 
 /* Typography */
