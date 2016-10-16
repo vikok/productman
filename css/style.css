@@ -1,17 +1,51 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
+
+body{
+	font-family: 400 25px/1.3 "Roboto", Arial, sans-serif;
+	background: #ECECEC;
 }
 
 
 
 /* Layout */
 .ba-container{
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 40px 135px;
 	max-width: 1200px;
 }
 
+.ba-first-title {
+	font-family: "Roboto", sans-serif;
+	color:  #303030;
+	font-size: 48px;
+	text-align: left;
+	margin-top: 40px;
+}
 
+.ba-menu {
+	list-style: none;
+	color: #303030;
+}
+
+.ba-second-title {
+	font-family: "Raleway", sans-serif;
+	color:  #303030;
+	font-size: 150px;
+	display: inline-block;
+}
+
+.ba-float-left {
+	float: left;
+	width: 50%;
+}
+
+.ba-product-text {
+	display: inline-block;
+}
+
+.ba-product-img {
+	display: inline-block;
+}
 
 /* Typography */
 a,
