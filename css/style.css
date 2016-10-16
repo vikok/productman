@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 
 body{
@@ -11,7 +12,7 @@ body{
 /* Layout */
 .ba-container{
 	padding: 40px 135px;
-	max-width: 1200px;
+	max-width: 1300px;
 }
 
 .ba-first-title {
@@ -20,33 +21,64 @@ body{
 	font-size: 48px;
 	text-align: left;
 	margin-top: 40px;
+	text-decoration: none;
 }
 
-.ba-menu {
+.ba-menu  {
 	list-style: none;
 	color: #303030;
+	text-decoration: none;
 }
 
 .ba-second-title {
 	font-family: "Raleway", sans-serif;
 	color:  #303030;
 	font-size: 150px;
-	display: inline-block;
+	display: block;
+	word-wrap: break-word;
+	text-align: right;
+	margin: 0;
 }
 
 .ba-float-left {
 	float: left;
 	width: 50%;
+	text-align: right;
 }
 
 .ba-product-text {
 	display: inline-block;
-	text-align:right;
+	text-align: right;
+	font-family: "Roboto", sans-serif;
+	color:  #303030;
+	font-size: 24px;
 }
 
 .ba-product-img {
 	display: inline-block;
-	text-align:right;
+	text-align: right;
+}
+
+.ba-view {
+	font-family: "Roboto", sans-serif;
+	color:  #e10011;
+	font-size: 24px;
+	text-align: left;
+}
+
+.ba-dote ul {
+	border-radius: 50%;
+	color: #303030;
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 60px;
+}
+
+
+li:first-child  {
+	color:  #e10011;
 }
 
 /* Typography */
