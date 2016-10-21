@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900');
 
 
 body{
-	font-family: 400 25px/1.3 "Roboto", Arial, sans-serif;
+	font-family: 900 150px/1.3 "Roboto", Arial, sans-serif;
 	background: #ECECEC;
 }
 
@@ -12,7 +12,7 @@ body{
 /* Layout */
 .ba-container{
 	padding: 40px 135px;
-	max-width: 1300px;
+	max-width: 1500px;
 }
 
 .ba-first-title {
@@ -26,8 +26,24 @@ body{
 
 .ba-menu  {
 	list-style: none;
-	color: #303030;
+	float: right;
+}
+
+.ba-menu a {
+	font-family: "Roboto", sans-serif;
+	color:  #303030;
+	font-size: 18px;
+	font-weight: 400;
 	text-decoration: none;
+	margin: 0 40px;
+	float: left;
+}
+.ba-menu a:hover {
+	color:  #e10011;
+}
+
+.ba-menu li {
+	float: left;
 }
 
 .ba-second-title {
@@ -38,12 +54,16 @@ body{
 	word-wrap: break-word;
 	text-align: right;
 	margin: 0;
+	font-weight: 900;
+	text-transform: uppercase;
+
 }
 
-.ba-float-left {
+.ba-floats {
 	float: left;
 	width: 50%;
 	text-align: right;
+	font-family: "Roboto", sans-serif;
 }
 
 .ba-product-text {
@@ -61,24 +81,109 @@ body{
 
 .ba-view {
 	font-family: "Roboto", sans-serif;
-	color:  #e10011;
 	font-size: 24px;
+	text-align: left;
+	padding-bottom: 100px;
+}
+
+.ba-view:hover {
+	color:  #e10011;
+}
+.ba-content {
+	border-radius: 5px;
+	background-color:  #ffffff;
+	max-width: 1190px;
+	height: 1193px;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	font-family: "Raleway", sans-serif;
+	margin: 0 auto;
+}
+
+.ba-thirt-title {
+	font-family: "Raleway", sans-serif;
+	color:  #303030;
+	font-size: 48px;
+	font-weight: 900;
+	padding-top: 114px;
+    padding-bottom: 28px;
+    margin: 0;
+}
+
+.ba-grid-cf {
+	margin: 30px -35px;
+}
+
+.ba-col {
+	float: left;
+	padding: 30px 35px;
+}
+
+.ba-col-65 {
+	width: 65%;
+}
+
+.ba-col-35 {
+	width: 35%;
+}
+
+.ba-col-33 {
+	width: 33.333%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+	background-color:  #eeeeee;
+}
+
+.ba-featured img {
+	display: block;
+}
+
+
+.ba-featured {
+	display: inline-block;
+	position: relative;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.ba-work__overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: #E10011;
+	opacity: 0;
+	transition: .3s ease-in;
+}
+
+.ba-work__text {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 50%;
+	transform: translateY(-50%);
+	color: #FFFFFF;
 	text-align: left;
 }
 
-.ba-dote ul {
-	border-radius: 50%;
-	color: #303030;
-	width: 11px;
-	height: 11px;
-	display: inline-block;
-	text-align: center;
-	margin-top: 60px;
+.ba-featured__text h3 {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	font-size: 30px;
+
 }
 
-
-li:first-child  {
-	color:  #e10011;
+.ba-featured:hover .ba-work__overlay {
+	opacity: 1;
 }
 
 /* Typography */
