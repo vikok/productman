@@ -15,6 +15,10 @@ body{
 	max-width: 1500px;
 }
 
+.ba-header {
+	padding-bottom: 50px;
+}
+
 .ba-first-title {
 	font-family: "Roboto", sans-serif;
 	color:  #303030;
@@ -24,9 +28,11 @@ body{
 	text-decoration: none;
 }
 
+
 .ba-menu  {
 	list-style: none;
 	float: right;
+	padding-top: 40px;
 }
 
 .ba-menu a {
@@ -89,6 +95,7 @@ body{
 .ba-view:hover {
 	color:  #e10011;
 }
+
 .ba-content {
 	border-radius: 5px;
 	background-color:  #ffffff;
@@ -185,6 +192,10 @@ img {
 .ba-featured:hover .ba-work__overlay {
 	opacity: 1;
 }
+
+
+
+
 
 /* Typography */
 a,
