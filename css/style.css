@@ -3,7 +3,7 @@
 
 
 body{
-	font-family: 900 150px/1.3 "Roboto", Arial, sans-serif;
+	font-family: 300 24px/1.3 "Roboto", Arial, sans-serif;
 	background: #ECECEC;
 }
 
@@ -11,8 +11,8 @@ body{
 
 /* Layout */
 .ba-container{
-	padding: 40px 135px;
-	max-width: 1500px;
+	padding: 0 20px;
+	max-width: 1300px;
 }
 
 .ba-header {
@@ -26,6 +26,7 @@ body{
 	text-align: left;
 	margin-top: 40px;
 	text-decoration: none;
+	font-weight: 900;
 }
 
 
@@ -56,13 +57,11 @@ body{
 	font-family: "Raleway", sans-serif;
 	color:  #303030;
 	font-size: 150px;
-	display: block;
 	word-wrap: break-word;
 	text-align: right;
 	margin: 0;
 	font-weight: 900;
 	text-transform: uppercase;
-
 }
 
 .ba-floats {
@@ -97,16 +96,15 @@ body{
 }
 
 .ba-content {
-	border-radius: 5px;
 	background-color:  #ffffff;
-	max-width: 1190px;
-	height: 1193px;
 	font-size: 18px;
 	font-weight: 400;
 	text-align: center;
 	font-family: "Raleway", sans-serif;
 	margin: 0 auto;
 }
+
+
 
 .ba-thirt-title {
 	font-family: "Raleway", sans-serif;
@@ -140,10 +138,7 @@ body{
 }
 
 img {
-	max-width: 100%;
 	height: auto;
-	border-radius: 5px;
-	background-color:  #eeeeee;
 }
 
 .ba-featured img {
@@ -152,7 +147,7 @@ img {
 
 
 .ba-featured {
-	display: inline-block;
+	display: block;
 	position: relative;
 	color: #FFF;
 	text-decoration: none;
@@ -179,14 +174,26 @@ img {
 	bottom: 50%;
 	transform: translateY(-50%);
 	color: #FFFFFF;
+}
+
+.ba-featured h3 {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	position: absolute;
+	font-size: 28px;
+	left: 35px;
+	bottom: 40px;
+	max-width: 285px;
 	text-align: left;
 }
 
-.ba-featured__text h3 {
-	font-family: "Roboto", sans-serif;
-	margin: 0;
-	font-size: 30px;
-
+.ba-featured h3:after{
+	content: "";
+	height: 5px;
+	background: #FFF;
+	width: 112px;
+	display: block;
+	margin-top: 10px;
 }
 
 .ba-featured:hover .ba-work__overlay {
